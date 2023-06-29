@@ -1,0 +1,319 @@
+@media screen and (min-width: 375px){
+    .projects_cap {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .circle {
+        position: absolute;
+        top: 254px;
+        right: -65px;
+    }
+    .rings {
+        position: absolute;
+        left: -342px;
+        top: 124px;
+    }
+    .rings_2 {
+        position: absolute;
+        top: 1280px;
+        right: -344px;
+    }
+}
+@media screen and (min-width: 768px){
+    .circle {
+        position: absolute;
+        top: 471px;
+        right: -65px;
+    }
+    .rings {
+        position: absolute;
+        left: -265px;
+        top: 95px;
+    }
+    .rings_2 {
+        position: absolute;
+        top: 1055px;
+        right: -322px;
+    }
+    .rings_3 {
+        left: -368px;
+        bottom: 140px;
+    }
+    .mainContainer {
+        padding: 0 30px;
+    }
+    .adamkeys_container {
+        top: 30px;
+    }
+    .adamkeyes {
+        font-size: 32px !important;
+    }
+    .icon img {
+        width: 24px;
+        height: 24px;
+    }
+    /* introduction */
+    .introduction {
+        position: relative;
+        height: 600px;
+    }
+    .imageDiv img {
+        position: absolute;
+        right: -30px;
+        bottom: 0;
+        width: 322px;
+        height: 600px;
+    }
+    .introduction_content {
+        max-width: 443px;
+    }
+    .introduction_content .heading {
+        color: var(--white, #FFF);
+        font-size: 72px;
+        font-family: Grotesk;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: -2.045px;
+        margin-bottom: 60px !important;
+    }
+    .introduction_content p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 34px !important;
+    }
+    .introduction_content div:last-child:not(.exclude) {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2.286px;
+    }
+    .adam_keyes {
+        border-bottom: 6px solid #4EE1A0;
+    }
+    /* skills */
+    .skills {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 52px;
+        border-bottom: none;
+        margin-bottom: 100px;
+    }
+    .skills .item {
+        gap: 14px;
+    }
+    .skills .item div {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: -1.5px;
+    }
+    .skills .item p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    /* projects */
+    .projects {margin-bottom: 100px;}
+    .margin406080 {
+        margin-bottom: 60px;
+    }
+    .projects_grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* contactme */
+    .contactme_container {
+        padding-left: 160px;
+        padding-right: 160px;
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+    .contactme_content .caption {
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: -2.045px;
+    }
+    .contactme_content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    /* footer */
+    footer {
+        margin-left: -30px;
+        margin-right: -30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .circle {
+        right: -10px;
+    }
+    .mainContainer {
+        padding: 0 80px;
+    }
+    .adamkeys_container {
+        top: 33px;
+    }
+    .contactme_container {
+        margin-left: -80px;
+        margin-right: -80px;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    /* footer */
+    footer {
+        margin-left: -80px;
+        margin-right: -80px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .circle {
+        position: absolute;
+        top: 521px;
+        right: 545px;
+    }
+    .rings {
+        position: absolute;
+        left: -100px;
+        top: 133px;
+    }
+    .rings_2 {
+        position: absolute;
+        top: 1030px;
+        right: -239px;
+    }
+    .rings_3 {
+        left: -205px;
+        bottom: 160px;
+    }
+    .mainContainer {
+        padding: 0 165px;
+    }
+    .adamkeys_container {
+        top: 40px;
+    }
+    .social-icons {
+        padding-right: 30px;
+    }
+    
+    /* introduction */
+    .introduction {
+        height: 720px;
+    }
+    .imageDiv img {
+        width: 445px;
+        height: 720px;
+        right: 0;
+    }
+    .introduction_content {
+        max-width: 650px;
+    }
+    .introduction_content p {
+        max-width: 445px;
+        margin-bottom: 66px !important; 
+    }
+    /* skills */
+    .skills {
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 58px;
+        margin-bottom: 140px;
+    }
+    /* projects */
+    .margin406080 {
+        margin-bottom: 80px;
+    }
+    /* projects */
+    .projects_grid_imgdiv:hover .hoverbox {
+        display: flex !important;
+    }
+    .projects_grid {
+        row-gap: 70px;
+        column-gap: 24px;
+    }
+    /* contactme */
+    .contactme_container {
+        margin-left: -165px;
+        margin-right: -165px;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+    .contactme_container .contactme_content, .contactme_container form {
+        width: 445px;
+    }
+    .contactme_content .caption {
+        font-size: 88px;
+        line-height: 88px;
+    }
+    /* footer */
+    footer {
+        margin-left: -165px;
+        margin-right: -165px;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+}
+@media screen and (min-width: 1400px){
+    .circle {
+        position: absolute;
+        top: 521px;
+        right: 545px;
+    }
+    .rings {
+        position: absolute;
+        left: -100px;
+        top: 133px;
+    }
+    .introduction_content {
+        max-width: 706px;
+        transform: translateY(55px);
+    }
+}
+@media screen and (min-width: 1600px){
+    .rings_2 {display: none;}
+    .mainContainer {
+        padding: 0 180px;
+    }
+    .adamkeys_container {
+        top: 50px;
+    }
+    /* contactme */
+    .contactme_container {
+        margin-left: -180px;
+        margin-right: -180px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    /* footer */
+    footer {
+        margin-left: -180px;
+        margin-right: -180px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+}
+@media screen and (min-width: 1900px){
+    .circle {
+        position: absolute;
+        top: 521px;
+        right: 627px;
+    }
+    .mainContainer {
+        padding: 0 250px;
+    }
+    .contactme_container {
+        margin-left: -250px;
+        margin-right: -250px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    /* footer */
+    footer {
+        margin-left: -250px;
+        margin-right: -250px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
